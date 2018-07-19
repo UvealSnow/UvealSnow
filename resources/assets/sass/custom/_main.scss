@@ -1,0 +1,39 @@
+.main-container {
+    left: -270px;
+    width: calc(100vw + 270px);
+    overflow: hidden;
+    transition: .45s;
+    position: relative;
+    background-color: #fbfbfb;
+}
+
+.main-container.active {
+    left: 0;
+    width: 100vw;
+}
+
+    .navbar {
+        width: 270px;
+        height: 100vh;
+        z-index: 9;
+        border-radius: 0;
+        background-color: #fbfbfb;
+        position: fixed;
+    }
+
+        .navbar__title {
+            color: black;
+            letter-spacing: 1px;
+        }
+
+    .full-page {
+        width: 100vw;
+        position: relative;
+        left: 270px;
+    }
+
+        .hamburger {
+            position: absolute;
+            z-index: 10;
+        }
+
