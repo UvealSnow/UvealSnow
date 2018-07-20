@@ -17,9 +17,11 @@
     <div id="app" class="main-container">
         {{-- Navbar --}}
         <div class="navbar">
-            <h3 class="text-weight-light pull-right navbar__title">
-                KEVIN AVILA
-            </h3>
+            <h1 class="navbar__title">
+                <a href="{{ url("/") }}">
+                    KEVIN AVILA
+                </a>
+            </h1>
         </div>
 
         <div class="content">

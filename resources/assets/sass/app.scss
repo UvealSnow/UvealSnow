@@ -1,16 +1,18 @@
-
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
-
-// Variables
-@import "variables";
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600');
 
 // Hamburgers
 @import "~hamburgers/_sass/hamburgers/hamburgers";
 
-// Bootstrap
-@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+// Slick
+@import "~slick-carousel/slick/slick.scss";
+@import "~slick-carousel/slick/slick-theme.scss";
+
+// Layout
+@import "layout/reset";
+@import "layout/main";
 
 // Custom SCSS
 @import "custom/main";
 @import "custom/carousel";
+@import "custom/articles";

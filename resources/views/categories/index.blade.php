@@ -10,76 +10,141 @@
         </button>
 
         {{-- Carousel --}}
-        <div id="mainPageCarousel" class="carousel slide" data-ride="carousel">
-            {{-- Carousel indicators --}}
-            <ol class="carousel-indicators">
-                <li data-target="#mainPageCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#mainPageCarousel" data-slide-to="1"></li>
-                <li data-target="#mainPageCarousel" data-slide-to="2"></li>
-            </ol>
+        <div id="mainCarousel" class="carousel">
+            <div class="carousel__item">
+                <div class="article--featured">
+                    <div class="article__background" style="background-image: url('./img/black-tea.jpg');"></div>
 
-            {{-- Wrapper for slides --}}
-            <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                    <img src="./img/mountain.jpg">
+                    <div class="article__text">
+                        <h5 class="article__category">
+                            <a href="#">Category</a>
+                        </h5>
+
+                        <h2 class="article__title">
+                            <a href="#">The title of the article goes here</a>
+                        </h2>
+
+                        <p class="article__sinopsis">
+                            This is where the sinopsis of the given artile should be displayed, contains the main idea
+                        </p>
+                    </div>
                 </div>
+            </div>
 
-                <div class="item">
-                    <img src="./img/geiser.jpg">
+            <div class="carousel__item">
+                <div class="article--featured">
+                    <div class="article__background" style="background-image: url('./img/tea.jpg');"></div>
+
+                    <div class="article__text">
+                        <h5 class="article__category">
+                            <a href="#">Category</a>
+                        </h5>
+
+                        <h2 class="article__title">
+                            <a href="#">The title of the article goes here</a>
+                        </h2>
+
+                        <p class="article__sinopsis">
+                            This is where the sinopsis of the given artile should be displayed, contains the main idea
+                        </p>
+                    </div>
                 </div>
+            </div>
 
-                <div class="item">
-                    <img src="./img/landscape.jpg">
+            <div class="carousel__item">
+                <div class="article--featured">
+                    <div class="article__background" style="background-image: url('./img/cars.jpg');"></div>
+
+                    <div class="article__text">
+                        <h5 class="article__category">
+                            <a href="#">Category</a>
+                        </h5>
+
+                        <h2 class="article__title">
+                            <a href="#">The title of the article goes here</a>
+                        </h2>
+
+                        <p class="article__sinopsis">
+                            This is where the sinopsis of the given artile should be displayed, contains the main idea
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
 
         {{-- Main content --}}
         <div class="articles">
-            <div class="row">
-                {{-- Big left, mosaic right --}}
-                <div class="col-md-6">
-                    {{-- article --}}
-                </div>
-                <div class="col-md-6">
-                    <div class="row">
-                        <div class="col-md-6">
-                            {{-- article --}}
-                        </div>
-                        <div class="col-md-6">
-                            {{-- article --}}
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            {{-- article --}}
-                        </div>
+            <div class="article-group--left">
+                <div class="article--big">
+                    <div class="article__background" style="background-image: url('./img/blossom.jpg');"></div>
+
+                    <div class="article__text">
+                        <h5 class="article__category">
+                            <a href="#">Category</a>
+                        </h5>
+
+                        <h2 class="article__title">
+                            <a href="#">The title of the article goes here</a>
+                        </h2>
+
+                        <p class="article__sinopsis">
+                            This is where the sinopsis of the given artile should be displayed, contains the main idea
+                        </p>
                     </div>
                 </div>
 
-                {{-- 3 equal articles --}}
-                <div class="col-md-4"></div>
-                <div class="col-md-4"></div>
-                <div class="col-md-4"></div>
+                <div class="article--small-1">
+                    <div class="article__background" style="background-image: url('./img/geiser.jpg');"></div>
 
-                {{-- Big right, mosaic left --}}
-                <div class="col-md-6">
-                    <div class="row">
-                        <div class="col-md-6">
-                            {{-- article --}}
-                        </div>
-                        <div class="col-md-6">
-                            {{-- article --}}
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            {{-- article --}}
-                        </div>
+                    <div class="article__text">
+                        <h5 class="article__category">
+                            <a href="#">Category</a>
+                        </h5>
+
+                        <h2 class="article__title">
+                            <a href="#">The title of the article goes here</a>
+                        </h2>
+
+                        <p class="article__sinopsis">
+                            This is where the sinopsis of the given artile should be displayed, contains the main idea
+                        </p>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    {{-- article --}}
+
+                <div class="article--small-2">
+                    <div class="article__background" style="background-image: url('./img/landscape.jpg');"></div>
+
+                    <div class="article__text">
+                        <h5 class="article__category">
+                            <a href="#">Category</a>
+                        </h5>
+
+                        <h2 class="article__title">
+                            <a href="#">The title of the article goes here</a>
+                        </h2>
+
+                        <p class="article__sinopsis">
+                            This is where the sinopsis of the given artile should be displayed, contains the main idea
+                        </p>
+                    </div>
+                </div>
+
+                <div class="article--medium">
+                    <div class="article__background" style="background-image: url('./img/tea.jpg');"></div>
+
+                    <div class="article__text">
+                        <h5 class="article__category">
+                            <a href="#">Category</a>
+                        </h5>
+
+                        <h2 class="article__title">
+                            <a href="#">The title of the article goes here</a>
+                        </h2>
+
+                        <p class="article__sinopsis">
+                            This is where the sinopsis of the given artile should be displayed, contains the main idea
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>

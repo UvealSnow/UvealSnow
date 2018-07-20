@@ -1,5 +1,41 @@
-.carousel .item img {
-    height: 500px;
-    width: 100vw;
+.carousel .carousel__item {
     position: relative;
 }
+
+    .slick-dotted.slick-slider {
+        margin-bottom: 0px;
+    }
+
+    .slick-dots {
+        right: 0;
+        width: 43px;
+        height: auto;
+        bottom: 15px;
+        display: inline;
+
+        li {
+            cursor: pointer;
+            box-shadow: none;
+            width: 12px;
+            height: 12px;
+            cursor: pointer;
+        }
+
+        li button::before {
+            color: rgba(255, 255, 255, .9);
+        }
+
+        li.slick-active button::before {
+            color: #F75940;
+            font-size: 10px;
+        }
+    }
+
+    .slick-slide {
+        transition: .5s;
+        filter: blur(4px);
+    }
+
+    .slick-slide.slick-active {
+        filter: blur(0);
+    }

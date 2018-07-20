@@ -1,0 +1,12 @@
+[class^="article-group"] {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50px 50px;
+}
+
+    .article-group--left {
+        grid-template-areas:
+            "big big sm1 sm2"
+            "big big med med";
+    }

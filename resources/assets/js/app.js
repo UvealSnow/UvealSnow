@@ -1,16 +1,23 @@
-
 require('./bootstrap.js');
+require('slick-carousel');
 
-$(window).click(function () {
-    if ($("#app").hasClass('active') || $("#hamburger-menu").hasClass('is-active')) {
-        $("#app").removeClass('active');
-        $("#hamburger-menu").removeClass('is-active');
-    }
-});
+$(document).ready(function () {
+    $(".carousel").slick({
+        arrows: false,
+        dots: true
+    });
 
-$("#hamburger-menu").click(function (event) {
-    $("#app").toggleClass('active');
-    $("#hamburger-menu").toggleClass('is-active');
+    $(window).click(function () {
+        if ($("#app").hasClass('active') || $("#hamburger-menu").hasClass('is-active')) {
+            $("#app").removeClass('active');
+            $("#hamburger-menu").removeClass('is-active');
+        }
+    });
 
-    event.stopPropagation();
+    $("#hamburger-menu").click(function (event) {
+        $("#app").toggleClass('active');
+        $("#hamburger-menu").toggleClass('is-active');
+
+        event.stopPropagation();
+    });
 });
