@@ -20,6 +20,7 @@
     },
     "dependencies": {
         "hamburgers": "^0.9.3",
+        "scrollreveal": "^3.4.0",
         "slick-carousel": "^1.8.1"
     }
 }
