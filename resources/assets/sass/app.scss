@@ -4,6 +4,9 @@
 // Hamburgers
 @import "~hamburgers/_sass/hamburgers/hamburgers";
 
+// Fontawesome
+@import "~font-awesome/scss/font-awesome";
+
 // Slick
 @import "~slick-carousel/slick/slick.scss";
 @import "~slick-carousel/slick/slick-theme.scss";
@@ -14,6 +17,7 @@
 
 // Custom SCSS
 @import "custom/main";
+@import "custom/navbar";
 @import "custom/carousel";
 @import "custom/articles";
 @import "custom/media";

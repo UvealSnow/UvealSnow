@@ -1,0 +1,56 @@
+.navbar {
+    width: 270px;
+    height: 100vh;
+    z-index: 9;
+    border-radius: 0;
+    background-color: #fbfbfb;
+    position: fixed;
+}
+
+    .navbar__title {
+        color: black;
+        font-size: 22px;
+        line-height: 33px;
+        letter-spacing: 10px;
+        text-align: right;
+        margin: 50px 20px;
+    }
+
+    .navbar__categories {
+        position: absolute;
+        padding-right: 30px;
+        right: 0;
+    }
+
+        .navbar__category {
+            display: block;
+            font-size: 14px;
+            text-transform: uppercase;
+            text-align: right;
+            color: rgba(0, 0, 0, .4);
+            line-height: 2.5;
+            font-weight: 600;
+            transition: .5s;
+        }
+
+        .navbar__category:hover {
+            color: black;
+        }
+
+        .navbar__category.active {
+            color: black;
+            text-decoration: underline;
+        }
+
+    .navbar__footer {
+        position: absolute;
+        margin: 30px;
+        bottom: 0;
+        right: 0;
+    }
+
+        .navbar__sn {
+            text-align: right;
+            margin: 0 10px;
+            font-size: 18px;
+        }

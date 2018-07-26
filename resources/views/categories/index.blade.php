@@ -17,11 +17,11 @@
 
                     <div class="article__text">
                         <h5 class="article__category">
-                            <a href="#">Category</a>
+                            <a href="{{ url("/category/1") }}">Category</a>
                         </h5>
 
                         <h2 class="article__title">
-                            <a href="#">The title of the article goes here</a>
+                            <a href="{{ url("/article/1") }}">The title of the article goes here</a>
                         </h2>
 
                         <p class="article__sinopsis">
@@ -37,11 +37,11 @@
 
                     <div class="article__text">
                         <h5 class="article__category">
-                            <a href="#">Category</a>
+                            <a href="{{ url("/category/1") }}">Category</a>
                         </h5>
 
                         <h2 class="article__title">
-                            <a href="#">The title of the article goes here</a>
+                            <a href="{{ url("/article/1") }}">The title of the article goes here</a>
                         </h2>
 
                         <p class="article__sinopsis">
@@ -57,11 +57,11 @@
 
                     <div class="article__text">
                         <h5 class="article__category">
-                            <a href="#">Category</a>
+                            <a href="{{ url("/category/1") }}">Category</a>
                         </h5>
 
                         <h2 class="article__title">
-                            <a href="#">The title of the article goes here</a>
+                            <a href="{{ url("/article/1") }}">The title of the article goes here</a>
                         </h2>
 
                         <p class="article__sinopsis">
@@ -75,16 +75,16 @@
         {{-- Main content --}}
         <div class="articles">
             <div class="article-group--left">
-                <div class="article--big">
+                <div class="article--big reveal">
                     <div class="article__background" style="background-image: url('./img/owl.jpg');"></div>
 
                     <div class="article__text">
                         <h5 class="article__category">
-                            <a href="#">Category</a>
+                            <a href="{{ url("/category/1") }}">Category</a>
                         </h5>
 
                         <h2 class="article__title">
-                            <a href="#">Title here</a>
+                            <a href="{{ url("/article/1") }}">Title here</a>
                         </h2>
 
                         <p class="article__sinopsis">
@@ -93,16 +93,16 @@
                     </div>
                 </div>
 
-                <div class="article--small-1">
+                <div class="article--small-1 reveal">
                     <div class="article__background" style="background-image: url('./img/owl.jpg');"></div>
 
                     <div class="article__text">
                         <h5 class="article__category">
-                            <a href="#">Category</a>
+                            <a href="{{ url("/category/1") }}">Category</a>
                         </h5>
 
                         <h2 class="article__title">
-                            <a href="#">Title here</a>
+                            <a href="{{ url("/article/1") }}">Title here</a>
                         </h2>
 
                         <p class="article__sinopsis">
@@ -111,16 +111,16 @@
                     </div>
                 </div>
 
-                <div class="article--small-2">
+                <div class="article--small-2 reveal">
                     <div class="article__background" style="background-image: url('./img/owl.jpg');"></div>
 
                     <div class="article__text">
                         <h5 class="article__category">
-                            <a href="#">Category</a>
+                            <a href="{{ url("/category/1") }}">Category</a>
                         </h5>
 
                         <h2 class="article__title">
-                            <a href="#">Title here</a>
+                            <a href="{{ url("/article/1") }}">Title here</a>
                         </h2>
 
                         <p class="article__sinopsis">
@@ -129,16 +129,16 @@
                     </div>
                 </div>
 
-                <div class="article--medium">
+                <div class="article--medium reveal">
                     <div class="article__background" style="background-image: url('./img/owl.jpg');"></div>
 
                     <div class="article__text">
                         <h5 class="article__category">
-                            <a href="#">Category</a>
+                            <a href="{{ url("/category/1") }}">Category</a>
                         </h5>
 
                         <h2 class="article__title">
-                            <a href="#">Title here</a>
+                            <a href="{{ url("/article/1") }}">Title here</a>
                         </h2>
 
                         <p class="article__sinopsis">
@@ -149,16 +149,16 @@
             </div>
 
             <div class="article-group--center">
-                <div class="article--big">
+                <div class="article--big reveal">
                     <div class="article__background" style="background-image: url('./img/owl.jpg');"></div>
 
                     <div class="article__text">
                         <h5 class="article__category">
-                            <a href="#">Category</a>
+                            <a href="{{ url("/category/1") }}">Category</a>
                         </h5>
 
                         <h2 class="article__title">
-                            <a href="#">Title here</a>
+                            <a href="{{ url("/article/1") }}">Title here</a>
                         </h2>
 
                         <p class="article__sinopsis">
@@ -167,16 +167,16 @@
                     </div>
                 </div>
 
-                <div class="article--big">
+                <div class="article--big reveal">
                     <div class="article__background" style="background-image: url('./img/owl.jpg');"></div>
 
                     <div class="article__text">
                         <h5 class="article__category">
-                            <a href="#">Category</a>
+                            <a href="{{ url("/category/1") }}">Category</a>
                         </h5>
 
                         <h2 class="article__title">
-                            <a href="#">Title here</a>
+                            <a href="{{ url("/article/1") }}">Title here</a>
                         </h2>
 
                         <p class="article__sinopsis">
@@ -185,16 +185,16 @@
                     </div>
                 </div>
 
-                <div class="article--big">
+                <div class="article--big reveal">
                     <div class="article__background" style="background-image: url('./img/owl.jpg');"></div>
 
                     <div class="article__text">
                         <h5 class="article__category">
-                            <a href="#">Category</a>
+                            <a href="{{ url("/category/1") }}">Category</a>
                         </h5>
 
                         <h2 class="article__title">
-                            <a href="#">Title here</a>
+                            <a href="{{ url("/article/1") }}">Title here</a>
                         </h2>
 
                         <p class="article__sinopsis">
@@ -205,16 +205,16 @@
             </div>
 
             <div class="article-group--alt-left">
-                <div class="article--big">
+                <div class="article--big reveal">
                     <div class="article__background" style="background-image: url('./img/owl.jpg');"></div>
 
                     <div class="article__text">
                         <h5 class="article__category">
-                            <a href="#">Category</a>
+                            <a href="{{ url("/category/1") }}">Category</a>
                         </h5>
 
                         <h2 class="article__title">
-                            <a href="#">Title here</a>
+                            <a href="{{ url("/article/1") }}">Title here</a>
                         </h2>
 
                         <p class="article__sinopsis">
@@ -223,16 +223,16 @@
                     </div>
                 </div>
 
-                <div class="article--small-1">
+                <div class="article--small-1 reveal">
                     <div class="article__background" style="background-image: url('./img/owl.jpg');"></div>
 
                     <div class="article__text">
                         <h5 class="article__category">
-                            <a href="#">Category</a>
+                            <a href="{{ url("/category/1") }}">Category</a>
                         </h5>
 
                         <h2 class="article__title">
-                            <a href="#">Title here</a>
+                            <a href="{{ url("/article/1") }}">Title here</a>
                         </h2>
 
                         <p class="article__sinopsis">
@@ -241,16 +241,16 @@
                     </div>
                 </div>
 
-                <div class="article--small-2">
+                <div class="article--small-2 reveal">
                     <div class="article__background" style="background-image: url('./img/owl.jpg');"></div>
 
                     <div class="article__text">
                         <h5 class="article__category">
-                            <a href="#">Category</a>
+                            <a href="{{ url("/category/1") }}">Category</a>
                         </h5>
 
                         <h2 class="article__title">
-                            <a href="#">Title here</a>
+                            <a href="{{ url("/article/1") }}">Title here</a>
                         </h2>
 
                         <p class="article__sinopsis">
@@ -261,16 +261,16 @@
             </div>
 
             <div class="article-group--right">
-                <div class="article--big">
+                <div class="article--big reveal">
                     <div class="article__background" style="background-image: url('./img/owl.jpg');"></div>
 
                     <div class="article__text">
                         <h5 class="article__category">
-                            <a href="#">Category</a>
+                            <a href="{{ url("/category/1") }}">Category</a>
                         </h5>
 
                         <h2 class="article__title">
-                            <a href="#">Title here</a>
+                            <a href="{{ url("/article/1") }}">Title here</a>
                         </h2>
 
                         <p class="article__sinopsis">
@@ -279,16 +279,16 @@
                     </div>
                 </div>
 
-                <div class="article--small-1">
+                <div class="article--small-1 reveal">
                     <div class="article__background" style="background-image: url('./img/owl.jpg');"></div>
 
                     <div class="article__text">
                         <h5 class="article__category">
-                            <a href="#">Category</a>
+                            <a href="{{ url("/category/1") }}">Category</a>
                         </h5>
 
                         <h2 class="article__title">
-                            <a href="#">Title here</a>
+                            <a href="{{ url("/article/1") }}">Title here</a>
                         </h2>
 
                         <p class="article__sinopsis">
@@ -297,16 +297,16 @@
                     </div>
                 </div>
 
-                <div class="article--small-2">
+                <div class="article--small-2 reveal">
                     <div class="article__background" style="background-image: url('./img/owl.jpg');"></div>
 
                     <div class="article__text">
                         <h5 class="article__category">
-                            <a href="#">Category</a>
+                            <a href="{{ url("/category/1") }}">Category</a>
                         </h5>
 
                         <h2 class="article__title">
-                            <a href="#">Title here</a>
+                            <a href="{{ url("/article/1") }}">Title here</a>
                         </h2>
 
                         <p class="article__sinopsis">
@@ -315,16 +315,16 @@
                     </div>
                 </div>
 
-                <div class="article--medium">
+                <div class="article--medium reveal">
                     <div class="article__background" style="background-image: url('./img/owl.jpg');"></div>
 
                     <div class="article__text">
                         <h5 class="article__category">
-                            <a href="#">Category</a>
+                            <a href="{{ url("/category/1") }}">Category</a>
                         </h5>
 
                         <h2 class="article__title">
-                            <a href="#">Title here</a>
+                            <a href="{{ url("/article/1") }}">Title here</a>
                         </h2>
 
                         <p class="article__sinopsis">

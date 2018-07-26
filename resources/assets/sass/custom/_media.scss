@@ -24,8 +24,11 @@
 }
 
 @media screen and (min-width: 992px) {
-    .article--featured {
+    .articles {
+        padding-bottom: 64px;
+    }
 
+    .article--featured {
         .article__text {
             max-width: 80%;
         }
@@ -170,25 +173,8 @@
     }
 }
 
-/*
-    [class^="article-group"] {
-        width: 100%;
-        display: grid;
-        grid-gap: 30px;
-        grid-template-rows: 500px;
-        grid-template-columns: 50% 25% 25%;
+@media screen and (min-width: 1024px) {
+    .article--featured {
+        height: 100vh;
     }
-
-        .article--big {
-            height: 500px;
-        }
-
-        .article-group--left {
-            grid-template-areas:
-                "big other";
-        }
-
-        .article__background {
-            width: auto;
-        }
- */
+}

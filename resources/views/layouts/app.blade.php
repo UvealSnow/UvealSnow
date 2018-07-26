@@ -16,13 +16,7 @@
 <body>
     <div id="app" class="main-container">
         {{-- Navbar --}}
-        <div class="navbar">
-            <h1 class="navbar__title">
-                <a href="{{ url("/") }}">
-                    KEVIN AVILA
-                </a>
-            </h1>
-        </div>
+        @include('components.navbar')
 
         <div class="content">
             @yield('content')

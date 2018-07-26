@@ -1,7 +1,14 @@
 require('./bootstrap.js');
 require('slick-carousel');
 
+window.sr = require('scrollreveal')({
+    reset: true,
+    duration: 800
+});
+
 $(document).ready(function () {
+    sr.reveal('.reveal');
+
     $(".carousel").slick({
         arrows: false,
         dots: true
