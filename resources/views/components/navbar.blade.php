@@ -6,12 +6,12 @@
     </h1>
 
     <div class="navbar__categories">
-        <a class="navbar__category active" href="{{ url("/") }}">home</a>
-        <a class="navbar__category" href="{{ url("/category/coding") }}">coding</a>
-        <a class="navbar__category" href="{{ url("/category/cooking") }}">cooking</a>
-        <a class="navbar__category" href="{{ url("/category/3d-printing") }}">3d printing</a>
-        <a class="navbar__category" href="{{ url("/category/tabletop-games") }}">tabletop games</a>
-        <a class="navbar__category" href="{{ url("/category/random") }}">random</a>
+        <a class="navbar__category{{ $active == 'home' ? ' active' : '' }}" href="{{ url("/") }}">home</a>
+        <a class="navbar__category{{ $active == 'coding' ? ' active' : '' }}" href="{{ url("/category/coding") }}">coding</a>
+        <a class="navbar__category{{ $active == 'cooking' ? ' active' : '' }}" href="{{ url("/category/cooking") }}">cooking</a>
+        <a class="navbar__category{{ $active == '3d-printing' ? ' active' : '' }}" href="{{ url("/category/3d-printing") }}">3d printing</a>
+        <a class="navbar__category{{ $active == 'tabletop-games' ? ' active' : '' }}" href="{{ url("/category/tabletop-games") }}">tabletop games</a>
+        <a class="navbar__category{{ $active == 'random' ? ' active' : '' }}" href="{{ url("/category/random") }}">random</a>
     </div>
 
     <div class="navbar__footer">

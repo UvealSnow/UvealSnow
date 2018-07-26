@@ -12,6 +12,7 @@
 */
 
 Route::get('/', 'CategoryController@index');
+Route::get('/category/{category}', 'CategoryController@show');
 
 Route::resource('post', 'PostController');
 

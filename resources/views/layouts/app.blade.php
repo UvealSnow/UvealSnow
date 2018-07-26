@@ -19,7 +19,16 @@
         @include('components.navbar')
 
         <div class="content">
-            @yield('content')
+            <div class="full-page">
+                {{-- Burger menu --}}
+                <button id="hamburger-menu" class="hamburger hamburger--emphatic" type="button">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+
+                @yield('content')
+            </div>
         </div>
     </div>
 

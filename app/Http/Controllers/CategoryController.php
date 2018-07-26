@@ -16,9 +16,12 @@ class CategoryController extends Controller
     {
         $categories = Category::all();
 
-        return view('categories.index', [
-            'categories' => $categories
-        ]);
+        return view(
+            'categories.index',
+            [
+                'categories' => $categories
+            ]
+        );
     }
 
     /**
@@ -45,12 +48,21 @@ class CategoryController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Category  $category
+     * @param \App\Category $category asd
+     *
      * @return \Illuminate\Http\Response
      */
     public function show(Category $category)
     {
-        //
+        $posts = $category->posts()->paginate(10);
+
+        return view(
+            'categories.show',
+            [
+                'category' => $category,
+                'posts' => $posts
+            ]
+        );
     }
 
     /**

@@ -21,6 +21,8 @@ class CreatePostsTable extends Migration
             $table->string('thumbnail')->nullable();
             $table->string('title');
             $table->longText('body');
+            $table->string('small_abstract');
+            $table->string('medium_abstract')->nullable();
             $table->timestamps();
         });
     }

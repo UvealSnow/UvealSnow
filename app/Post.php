@@ -6,8 +6,40 @@ use Illuminate\Database\Eloquent\Model;
 
 class Post extends Model
 {
-    public function user()
+    /**
+     * The attributes that are not mass assignable.
+     *
+     * @var array
+     */
+    protected $guarded = [];
+
+    /**
+     * Category the Post belongs to
+     *
+     * @return Category
+     */
+    public function category()
+    {
+        return $this->belongsTo(Category::class);
+    }
+
+    /**
+     * User the Post belongs to
+     *
+     * @return User
+     */
+    public function author()
     {
         return $this->belongsTo(User::class);
+    }
+
+    /**
+     * Get the route key for the model.
+     *
+     * @return string
+     */
+    public function getRouteKeyName()
+    {
+        return 'uri';
     }
 }
