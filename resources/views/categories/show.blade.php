@@ -11,7 +11,24 @@
 
         <div class="category__posts">
             @forelse($posts as $index => $post)
-                <p>{{ $index }} - {{ $post->title }}</p>
+                <div class="category__post reveal">
+                    <div class="category__post-thumbnail" style="background-image: url('{{ $post->thumbnail }}')"></div>
+                    <div class="category__post-content">
+                        <div class="category__post-meta">
+                            <p>
+                                <a href="{{ url("/category/$category->uri") }}">{{ $post->category->name }}</a>
+                                by <span>{{ $post->user->name }}</span>
+                                ({{ $post->created_at->format('d M Y') }})
+                            </p>
+                        </div>
+                        <div class="category__post-description">
+                            <a href="{{ url("/$category->uri/$post->uri") }}">
+                                <h5>{{ $post->title }}</h5>
+                                <p>{{ str_limit($post->medium_abstract, 30, '...') }}</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             @empty
                 <p>No articles in this category yet.</p>
             @endforelse

@@ -3614,7 +3614,9 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+ul,
+li {
   color: inherit;
   text-decoration: none;
   font-family: 'Montserrat';
@@ -3948,6 +3950,75 @@ div[class^="article"] {
   line-height: 1.5;
 }
 
+.category__posts {
+  width: 100%;
+  display: grid;
+  margin-top: 30px;
+}
+
+.category__post-content {
+  padding: 0 0 8px;
+}
+
+.category__post-thumbnail {
+  width: 100%;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.category__post {
+  width: calc(100% - 20px);
+  display: block;
+  margin: auto;
+}
+
+.category__post-meta p {
+  font-size: 12px;
+  text-transform: none;
+  margin: 16px 0;
+}
+
+.category__post-meta p span,
+.category__post-meta p a {
+  font-weight: 600;
+}
+
+.category__post-description p {
+  margin: 8px 0;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+.category__post-description h5 {
+  margin: 4px 0 8px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.pagination {
+  margin: 16px 0;
+}
+
+.pagination li {
+  margin: 8px;
+  font-size: 18px;
+  display: inline-block;
+}
+
+.pagination li.active {
+  padding: 8px;
+  font-weight: 600;
+  background-color: black;
+  color: white;
+}
+
+.pagination li.disabled {
+  display: none;
+}
+
 @media screen and (min-width: 769px) {
   .main-container {
     width: 100vw;
@@ -3970,6 +4041,17 @@ div[class^="article"] {
 
   .articles {
     padding-top: 0;
+  }
+
+  .category__posts {
+    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+
+  .category__post {
+    width: 100%;
+    margin: 0;
   }
 }
 

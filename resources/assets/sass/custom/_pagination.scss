@@ -1,0 +1,21 @@
+.pagination {
+    margin: 16px 0;
+
+
+    li {
+        margin: 8px;
+        font-size: 18px;
+        display: inline-block;
+    }
+
+    li.active {
+        padding: 8px;
+        font-weight: 600;
+        background-color: black;
+        color: white;
+    }
+
+    li.disabled {
+        display: none;
+    }
+}

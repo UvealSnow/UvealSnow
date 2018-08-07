@@ -21,6 +21,17 @@
         .articles {
             padding-top: 0;
         }
+
+    .category__posts {
+        grid-gap: 30px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+    }
+
+        .category__post {
+            width: 100%;
+            margin: 0;
+        }
 }
 
 @media screen and (min-width: 992px) {

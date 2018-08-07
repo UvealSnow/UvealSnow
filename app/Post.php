@@ -28,7 +28,7 @@ class Post extends Model
      *
      * @return User
      */
-    public function author()
+    public function user()
     {
         return $this->belongsTo(User::class);
     }

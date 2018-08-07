@@ -12,9 +12,10 @@
 */
 
 Route::get('/', 'CategoryController@index');
-Route::get('/category/{category}', 'CategoryController@show');
 
-Route::resource('post', 'PostController');
+Route::get('/{category}', 'CategoryController@show');
+
+Route::get('/{category}/{post}', 'PostController@show');
 
 Auth::routes();
 

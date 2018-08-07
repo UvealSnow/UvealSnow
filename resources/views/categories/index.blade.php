@@ -9,11 +9,11 @@
 
                 <div class="article__text">
                     <h5 class="article__category">
-                        <a href="{{ url("/category/1") }}">Category</a>
+                        <a href="{{ url("/category") }}">Category</a>
                     </h5>
 
                     <h2 class="article__title">
-                        <a href="{{ url("/article/1") }}">The title of the article goes here</a>
+                        <a href="{{ url("/category/article") }}">The title of the article goes here</a>
                     </h2>
 
                     <p class="article__sinopsis">
@@ -29,11 +29,11 @@
 
                 <div class="article__text">
                     <h5 class="article__category">
-                        <a href="{{ url("/category/1") }}">Category</a>
+                        <a href="{{ url("/category") }}">Category</a>
                     </h5>
 
                     <h2 class="article__title">
-                        <a href="{{ url("/article/1") }}">The title of the article goes here</a>
+                        <a href="{{ url("/category/article") }}">The title of the article goes here</a>
                     </h2>
 
                     <p class="article__sinopsis">
@@ -49,11 +49,11 @@
 
                 <div class="article__text">
                     <h5 class="article__category">
-                        <a href="{{ url("/category/1") }}">Category</a>
+                        <a href="{{ url("/category") }}">Category</a>
                     </h5>
 
                     <h2 class="article__title">
-                        <a href="{{ url("/article/1") }}">The title of the article goes here</a>
+                        <a href="{{ url("/category/article") }}">The title of the article goes here</a>
                     </h2>
 
                     <p class="article__sinopsis">
@@ -72,11 +72,11 @@
 
                 <div class="article__text">
                     <h5 class="article__category">
-                        <a href="{{ url("/category/1") }}">Category</a>
+                        <a href="{{ url("/category") }}">Category</a>
                     </h5>
 
                     <h2 class="article__title">
-                        <a href="{{ url("/article/1") }}">Title here</a>
+                        <a href="{{ url("/category/article") }}">Title here</a>
                     </h2>
 
                     <p class="article__sinopsis">
@@ -90,11 +90,11 @@
 
                 <div class="article__text">
                     <h5 class="article__category">
-                        <a href="{{ url("/category/1") }}">Category</a>
+                        <a href="{{ url("/category") }}">Category</a>
                     </h5>
 
                     <h2 class="article__title">
-                        <a href="{{ url("/article/1") }}">Title here</a>
+                        <a href="{{ url("/category/article") }}">Title here</a>
                     </h2>
 
                     <p class="article__sinopsis">
@@ -108,11 +108,11 @@
 
                 <div class="article__text">
                     <h5 class="article__category">
-                        <a href="{{ url("/category/1") }}">Category</a>
+                        <a href="{{ url("/category") }}">Category</a>
                     </h5>
 
                     <h2 class="article__title">
-                        <a href="{{ url("/article/1") }}">Title here</a>
+                        <a href="{{ url("/category/article") }}">Title here</a>
                     </h2>
 
                     <p class="article__sinopsis">
@@ -126,11 +126,11 @@
 
                 <div class="article__text">
                     <h5 class="article__category">
-                        <a href="{{ url("/category/1") }}">Category</a>
+                        <a href="{{ url("/category") }}">Category</a>
                     </h5>
 
                     <h2 class="article__title">
-                        <a href="{{ url("/article/1") }}">Title here</a>
+                        <a href="{{ url("/category/article") }}">Title here</a>
                     </h2>
 
                     <p class="article__sinopsis">
@@ -146,11 +146,11 @@
 
                 <div class="article__text">
                     <h5 class="article__category">
-                        <a href="{{ url("/category/1") }}">Category</a>
+                        <a href="{{ url("/category") }}">Category</a>
                     </h5>
 
                     <h2 class="article__title">
-                        <a href="{{ url("/article/1") }}">Title here</a>
+                        <a href="{{ url("/category/article") }}">Title here</a>
                     </h2>
 
                     <p class="article__sinopsis">
@@ -164,11 +164,11 @@
 
                 <div class="article__text">
                     <h5 class="article__category">
-                        <a href="{{ url("/category/1") }}">Category</a>
+                        <a href="{{ url("/category") }}">Category</a>
                     </h5>
 
                     <h2 class="article__title">
-                        <a href="{{ url("/article/1") }}">Title here</a>
+                        <a href="{{ url("/category/article") }}">Title here</a>
                     </h2>
 
                     <p class="article__sinopsis">
@@ -182,11 +182,11 @@
 
                 <div class="article__text">
                     <h5 class="article__category">
-                        <a href="{{ url("/category/1") }}">Category</a>
+                        <a href="{{ url("/category") }}">Category</a>
                     </h5>
 
                     <h2 class="article__title">
-                        <a href="{{ url("/article/1") }}">Title here</a>
+                        <a href="{{ url("/category/article") }}">Title here</a>
                     </h2>
 
                     <p class="article__sinopsis">
@@ -202,11 +202,11 @@
 
                 <div class="article__text">
                     <h5 class="article__category">
-                        <a href="{{ url("/category/1") }}">Category</a>
+                        <a href="{{ url("/category") }}">Category</a>
                     </h5>
 
                     <h2 class="article__title">
-                        <a href="{{ url("/article/1") }}">Title here</a>
+                        <a href="{{ url("/category/article") }}">Title here</a>
                     </h2>
 
                     <p class="article__sinopsis">
@@ -220,11 +220,11 @@
 
                 <div class="article__text">
                     <h5 class="article__category">
-                        <a href="{{ url("/category/1") }}">Category</a>
+                        <a href="{{ url("/category") }}">Category</a>
                     </h5>
 
                     <h2 class="article__title">
-                        <a href="{{ url("/article/1") }}">Title here</a>
+                        <a href="{{ url("/category/article") }}">Title here</a>
                     </h2>
 
                     <p class="article__sinopsis">
@@ -238,11 +238,11 @@
 
                 <div class="article__text">
                     <h5 class="article__category">
-                        <a href="{{ url("/category/1") }}">Category</a>
+                        <a href="{{ url("/category") }}">Category</a>
                     </h5>
 
                     <h2 class="article__title">
-                        <a href="{{ url("/article/1") }}">Title here</a>
+                        <a href="{{ url("/category/article") }}">Title here</a>
                     </h2>
 
                     <p class="article__sinopsis">
@@ -258,11 +258,11 @@
 
                 <div class="article__text">
                     <h5 class="article__category">
-                        <a href="{{ url("/category/1") }}">Category</a>
+                        <a href="{{ url("/category") }}">Category</a>
                     </h5>
 
                     <h2 class="article__title">
-                        <a href="{{ url("/article/1") }}">Title here</a>
+                        <a href="{{ url("/category/article") }}">Title here</a>
                     </h2>
 
                     <p class="article__sinopsis">
@@ -276,11 +276,11 @@
 
                 <div class="article__text">
                     <h5 class="article__category">
-                        <a href="{{ url("/category/1") }}">Category</a>
+                        <a href="{{ url("/category") }}">Category</a>
                     </h5>
 
                     <h2 class="article__title">
-                        <a href="{{ url("/article/1") }}">Title here</a>
+                        <a href="{{ url("/category/article") }}">Title here</a>
                     </h2>
 
                     <p class="article__sinopsis">
@@ -294,11 +294,11 @@
 
                 <div class="article__text">
                     <h5 class="article__category">
-                        <a href="{{ url("/category/1") }}">Category</a>
+                        <a href="{{ url("/category") }}">Category</a>
                     </h5>
 
                     <h2 class="article__title">
-                        <a href="{{ url("/article/1") }}">Title here</a>
+                        <a href="{{ url("/category/article") }}">Title here</a>
                     </h2>
 
                     <p class="article__sinopsis">
@@ -312,11 +312,11 @@
 
                 <div class="article__text">
                     <h5 class="article__category">
-                        <a href="{{ url("/category/1") }}">Category</a>
+                        <a href="{{ url("/category") }}">Category</a>
                     </h5>
 
                     <h2 class="article__title">
-                        <a href="{{ url("/article/1") }}">Title here</a>
+                        <a href="{{ url("/category/article") }}">Title here</a>
                     </h2>
 
                     <p class="article__sinopsis">

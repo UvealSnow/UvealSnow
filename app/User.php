@@ -27,6 +27,11 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
 
+    /**
+     * Returns a collection of Posts that the model owns
+     *
+     * @return Post
+     */
     public function posts()
     {
         return $this->hasMany(Post::class);
