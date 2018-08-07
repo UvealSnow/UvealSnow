@@ -2,18 +2,13 @@
 
 namespace App\Http\Controllers;
 
+use App\Category;
 use App\Post;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
 class PostController extends Controller
 {
-
-    public function __construct()
-    {
-        $this->middleware('auth');
-    }
-
     /**
      * Display a listing of the resource.
      *
@@ -64,16 +59,19 @@ class PostController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param string $category The URI of the category
+     * @param string $post     The URI of the post
+     *
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(Category $category, Post $post)
     {
-        $post = Post::find($id);
-
-        return view('posts.show', [
-            'post' => $post
-        ]);
+        return view(
+            'posts.show', [
+                'category' => $category,
+                'post' => $post
+            ]
+        );
     }
 
     /**
