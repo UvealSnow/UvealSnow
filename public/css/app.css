@@ -4127,6 +4127,31 @@ div[class^="article"] {
   font-weight: 600;
 }
 
+.alert-success,
+.alert-danger {
+  margin-top: 32px;
+  padding: 16px;
+  font-size: 16px;
+}
+
+.alert-success p,
+.alert-danger p {
+  margin: 0;
+}
+
+.alert-success span,
+.alert-danger span {
+  font-weight: 600;
+}
+
+.alert-success {
+  background-color: rgba(211, 227, 210, 0.8);
+}
+
+.alert-danger {
+  background-color: rgba(255, 183, 183, 0.8);
+}
+
 .pagination {
   margin: 16px 0;
 }
@@ -4182,6 +4207,10 @@ div[class^="article"] {
   .category__post {
     width: 100%;
     margin: 0;
+  }
+
+  .post {
+    padding-top: 120px;
   }
 }
 

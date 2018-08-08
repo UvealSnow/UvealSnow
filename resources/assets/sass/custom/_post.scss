@@ -112,3 +112,26 @@
         font-weight: 600;
     }
 }
+
+.alert-success,
+.alert-danger {
+    margin-top: 32px;
+    padding: 16px;
+    font-size: 16px;
+
+    p {
+        margin: 0;
+    }
+
+    span {
+        font-weight: 600;
+    }
+}
+
+.alert-success {
+    background-color: rgba(211, 227, 210, .8);
+}
+
+.alert-danger {
+    background-color: rgba(255, 183, 183, .8);
+}

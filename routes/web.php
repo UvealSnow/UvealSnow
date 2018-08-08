@@ -17,6 +17,8 @@ Route::get('/{category}', 'CategoryController@show');
 
 Route::get('/{category}/{post}', 'PostController@show');
 
+Route::post('/{category}/{post}/comment', 'CommentController@store');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

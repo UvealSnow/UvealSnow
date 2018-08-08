@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Category;
 use App\Comment;
+use App\Post;
 use Illuminate\Http\Request;
 
 class CommentController extends Controller
@@ -30,12 +32,32 @@ class CommentController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param \Illuminate\Http\Request $request  The Request object
+     * @param \App\Category            $category The Category object
+     * @param \App\Post                $post     The Post object
+     *
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(Request $request, Category $category, Post $post)
     {
-        //
+        $this->validate(
+            $request,
+            [
+                'name' => 'required|string|max:255',
+                'email' => 'required|email',
+                'body' => 'required|string'
+            ]
+        );
+
+        $comment = $post->comments()->create($request->all());
+
+        // Mail::to('kevhah92@gmail.com')->queue(new NewComment($comment, $post));
+
+        return redirect("/$category->uri/$post->uri#comment-form")
+            ->with(
+                'success',
+                'Your comment has been added, thank you for your feedback.'
+            );
     }
 
     /**
