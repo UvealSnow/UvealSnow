@@ -34,6 +34,16 @@ class Post extends Model
     }
 
     /**
+     * Returns a collection of Posts that the model owns
+     *
+     * @return Post
+     */
+    public function comments()
+    {
+        return $this->hasMany(Comment::class);
+    }
+
+    /**
      * Get the route key for the model.
      *
      * @return string

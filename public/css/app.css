@@ -3616,7 +3616,11 @@ h3,
 h4,
 h5,
 ul,
-li {
+li,
+label,
+input,
+button,
+textarea {
   color: inherit;
   text-decoration: none;
   font-family: 'Montserrat';
@@ -3671,6 +3675,7 @@ h5 {
   position: fixed;
   margin: 20px;
   z-index: 10;
+  padding: 15px 0;
 }
 
 .hamburger-inner,
@@ -3976,7 +3981,6 @@ div[class^="article"] {
 
 .category__post-meta p {
   font-size: 12px;
-  text-transform: none;
   margin: 16px 0;
 }
 
@@ -3998,6 +4002,131 @@ div[class^="article"] {
   font-weight: 600;
 }
 
+.post {
+  padding-top: 90px;
+  background-color: white;
+}
+
+.post__thumbnail {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: calc(100% - 30px);
+  margin: auto;
+}
+
+.post__metadata,
+.post__content,
+.post__comments {
+  width: calc(100% - 30px);
+  margin: auto;
+}
+
+.post__metadata p,
+.post__content p,
+.post__comments p {
+  font-size: 12px;
+  margin: 16px 0;
+  line-height: 1.6;
+}
+
+.post__metadata p a,
+.post__metadata p span,
+.post__content p a,
+.post__content p span,
+.post__comments p a,
+.post__comments p span {
+  font-weight: 600;
+}
+
+.post__metadata h1,
+.post__content h1,
+.post__comments h1 {
+  line-height: 1.3;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 250%;
+  width: 80%;
+}
+
+.post__content {
+  padding-bottom: 48px;
+}
+
+.post__content p:first-of-type {
+  margin-top: 48px;
+}
+
+.post__content p {
+  font-weight: lighter;
+  font-size: 16px;
+  letter-spacing: .5px;
+}
+
+.comment {
+  padding-bottom: 16px;
+}
+
+.comment:not(:last-of-type) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+}
+
+.comment__metadata {
+  font-size: 16px;
+}
+
+.comment__metadata span {
+  font-weight: 600;
+}
+
+.comment__metadata .date {
+  float: right;
+  font-weight: lighter;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.comment__form {
+  padding: 32px 0;
+}
+
+.form-group label,
+.form-group button.form-control {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 8px;
+  font-weight: lighter;
+}
+
+.form-group .form-control {
+  padding: 16px;
+  margin-bottom: 16px;
+  width: calc(100% - 33px);
+  border: 1px solid rgba(0, 0, 0, 0.6);
+}
+
+.form-group button.form-control {
+  background: transparent;
+  width: 100%;
+}
+
+.form-group:first-of-type {
+  margin-top: 32px;
+}
+
+.right {
+  float: right;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.all-comments {
+  padding-top: 32px;
+}
+
+.all-comments a {
+  font-weight: 600;
+}
+
 .pagination {
   margin: 16px 0;
 }
@@ -4010,9 +4139,10 @@ div[class^="article"] {
 
 .pagination li.active {
   padding: 8px;
-  font-weight: 600;
-  background-color: black;
   color: white;
+  font-weight: 600;
+  margin: 0 0 0 8px;
+  background-color: black;
 }
 
 .pagination li.disabled {

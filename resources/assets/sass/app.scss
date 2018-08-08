@@ -16,10 +16,12 @@
 @import "layout/main";
 
 // Custom SCSS
+@import "custom/mixins";
 @import "custom/main";
 @import "custom/navbar";
 @import "custom/carousel";
 @import "custom/articles";
 @import "custom/categories";
+@import "custom/post";
 @import "custom/pagination";
 @import "custom/media";
